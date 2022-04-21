@@ -29,7 +29,14 @@ int main()
             cout<<j<<" ";
             else
             {
-                
+                if(j == 1)
+                cout<<j<<" ";
+                else if(j == i )
+                {
+                    cout<<i<<" ";
+                }
+                else
+                cout<<"  ";
             }
             
 

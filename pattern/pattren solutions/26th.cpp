@@ -1,39 +1,58 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
-{ int n = 3;
-cout<<"*"<<endl;
-    for (int i = 1; i <= n*2-1; i++)
+{
+    int n = 5;
+    int count;
+    cout << "*" << endl;
+    for (int i = 1; i <= n; i++)
     {
-        if(n>=i){
-            cout<<"* ";
-        for (int j = 0; j < i;)
+        count = 0;
+
         {
-            cout<<++j<<" ";
+            cout << "*";
         }
-        for (int j = i; j > 1; )
+
+        for (int j = 1; j <= i; j++)
         {
-           cout<<--j<<" ";
+
+            cout << ++count;
         }
-        cout<<"*"<<endl;} 
-    
-    else
+        for (int j = 1; j <= i - 1; j++)
+        {
+            count--;
+            cout << count;
+        }
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+    for (int i = n; i >= 1; i--)
     {
-        cout<<"* ";
-        for (int j = i-1; j > 0;)
+        count = 0;
         {
-            cout<<--j<<" ";
+            cout << "*";
         }
-        for (int j = i; j < 1; )
+
+        for (int j = 1; j <= i; j++)
         {
-           cout<<++j<<" ";
+            cout << ++count;
         }
-        cout<<"*"<<endl;
-     
+        for (int j = 1; j <= i - 1; j++)
+        {
+
+            count--;
+            cout << count;
+        }
+
+        {
+            cout << "*";
+        }
+        cout << endl;
     }
-    
-    
-    }
-    cout<<"*";
-return 0;
+
+    cout << "*" << endl;
+
+    return 0;
 }

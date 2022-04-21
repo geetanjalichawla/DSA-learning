@@ -1,33 +1,36 @@
-//dimond shape
 #include<iostream>
 using namespace std;
 int main()
-{ int n =4;
-    for (int i = 1; i <= n; i++)
+{
+    int N = 5;
+    for (int i = 1; i <= N; i++)
     {
-        for (int  j = 1; j <= n; j++)
+        for (int j = 1; j <= i; j++)
         {
-            if(j<= n-i)
-            cout<<" ";
-            else
-            cout<<"* ";
+           cout<<i;
+           if (i!=j)
+           {
+               cout<<"*";
+           }
+           
         }
-        cout<<endl;
+        cout<<endl; 
         
     }
-    for (int i = 1; i <= n; i++)
+    for (int i = N; i >= 1; i--)
     {
-        for (int  j = 1; j <= n; j++)
+        for (int j = 1; j <= i; j++)
         {
-            if(i-j >=1 )
-            cout<<" ";
-            else
-            cout<<"* ";
+           cout<<i;
+           if (i!=j)
+           {
+               cout<<"*";
+           }
+           
         }
-        cout<<endl;
+        cout<<endl; 
         
     }
-    
-    return 0;
-}
 
+return 0;
+}
