@@ -3,7 +3,19 @@
 using namespace std;
 
 
-int binomialCoeff(int n, int k);
+int binomialCoeff(int n, int k)
+{
+	int res = 1;
+	if (k > n - k)
+	k = n - k;
+	for (int i = 0; i < k; ++i)
+	{
+		res *= (n - i);
+		res /= (i + 1);
+	}
+	
+	return res;
+}
 
 // Function to print first
 // n lines of Pascal's
@@ -23,19 +35,7 @@ void printPascal(int n)
 	}
 }
 
-int binomialCoeff(int n, int k)
-{
-	int res = 1;
-	if (k > n - k)
-	k = n - k;
-	for (int i = 0; i < k; ++i)
-	{
-		res *= (n - i);
-		res /= (i + 1);
-	}
-	
-	return res;
-}
+
 
 // Driver program
 int main()
