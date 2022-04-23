@@ -1,7 +1,5 @@
 # DSA-learning
 
-Only solution of questions with appropriate comments of explaining the question.
-if there is any keyword home it means that quesstion was given for homework by love babbar sir 
 
 -->Star the repo for future reference.
 
@@ -13,4 +11,5 @@ Happy learning ! :)
 
 contributers
 1. geetanjali chawla 
+
 
