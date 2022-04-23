@@ -35,6 +35,6 @@ public:
 int main()
 {
 Solution obj;
-cout<<obj.reverse(-223234);
+cout<<obj.reverse(-223234);//change it to check for different values
 return 0;
 }
