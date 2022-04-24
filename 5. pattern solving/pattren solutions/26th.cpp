@@ -8,11 +8,7 @@ int main()
     for (int i = 1; i <= n; i++)
     {
         count = 0;
-
-        {
-            cout << "*";
-        }
-
+        cout << "*";
         for (int j = 1; j <= i; j++)
         {
 
@@ -31,10 +27,7 @@ int main()
     for (int i = n; i >= 1; i--)
     {
         count = 0;
-        {
-            cout << "*";
-        }
-
+        cout << "*";
         for (int j = 1; j <= i; j++)
         {
             cout << ++count;
