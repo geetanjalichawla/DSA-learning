@@ -1,0 +1,67 @@
+** functions
+function is a block of code
+main function is also a function
+we have retrun type in function which includes:- void, int ,char , string or any other data type
+why return kam agar katam toh a+b krke kaha humko milega toh means retrun
+in case of no return we use void
+
+why function?
+    1.    to avoid repeating code
+    2.    readbility is increased
+    3.    modularity 
+    4.    time saving
+    5.    maintainability 
+    6.    easy to understand 
+    7.    easy to debug
+    8.    redundancy 
+    9.    testable
+
+--> stack 
+stack use lifo protocal which means last in first out
+1,2,3,4,5,6,7,8,9 <---
+if we are inserting a element 10 in end (last)
+1,2,3,4,5,6,7,8,9,10 <---
+it 10 should come out befor any element from 1-9
+1,2,3,4,5,6,7,8,9 --->10
+1,2,3,4,5,6,7,8 --->  9
+1,2,3,4,5,6,7 --->    8
+so on 
+last out element will be 1 
+
+how the stack related to function?
+as we call function inside a function it.
+--> call by VALUE
+jab hum function ko call krkte hai kisi variable ki value deke 
+agar void printing(int n ) function hai toh humko kuch value dena hoga to printing function jise usko koi value milee for storing it in n 
+n is a memory loction n variable in main and n variable in printing is diffrent
+
+#value simply means we are not working on variable we are working on a value.
+
+** Array
+array is a collection of simlar datatypes 
+we can access n number of variable using a single name using array
+
+syntax-->
+______________________________________________________
+| int arr [10]; // will create a array for 10 element |
+|_____________________________________________________|
+
+__________________________________________
+|  int arr[10] = {4,3,1,34,34,20,034};   |
+|  // 7 value other than that will be 0  |
+|________________________________________|
+
+we can access arr element using its index number 
+in array index starts with 0->1->2->3->4->5->6->7->8->9
+last element of arr is arr[size - 1] 
+arr[0] = 4 // first element
+arr[1] = 3
+arr[2] = 1
+arr[3] = 34
+arr[4] = 34
+arr[5] = 20
+arr[6] = 34
+arr[7] = 0
+arr[8] = 0
+arr[9] = 0 // last element
+
