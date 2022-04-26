@@ -1,3 +1,13 @@
+ /*
+ star triangle
+ *
+ **
+ ***
+ ****
+ *****
+ 
+ */
+
  #include <iostream>
  using namespace std;
  int main()

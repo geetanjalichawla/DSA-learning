@@ -1,3 +1,13 @@
+/*
+3
+44
+555
+6666
+555
+44
+3
+*/
+
 #include<iostream>
 using namespace std;
 int main()

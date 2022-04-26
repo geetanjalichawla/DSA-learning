@@ -1,3 +1,14 @@
+ 
+ /*
+ star triangle but opposite
+ *****
+ ****
+ ***
+ **
+ *
+ 
+ */
+
  #include <iostream>
  using namespace std;
  int main()

@@ -1,4 +1,17 @@
-//dimond shape
+// hollow dimond shape
+/*
+  
+   * 
+  * *
+ *   *
+*     *
+*     *
+ *   *
+  * *
+   * 
+
+*/
+
 #include<iostream>
 using namespace std;
 int main()
