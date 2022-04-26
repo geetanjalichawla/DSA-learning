@@ -12,6 +12,7 @@ using namespace std;
 int main(){
     int start, n ; 
     //input two number
+    cout<<"input two numbers: ";
     cin >> start >> n;
     for(int row = 1; row <= n ; row ++){
         //for each row 
