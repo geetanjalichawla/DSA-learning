@@ -1,4 +1,14 @@
-//dimond shape
+/*dimond shape
+    *
+   * *
+  * * * 
+ * * * * 
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    *
+*/
 #include<iostream>
 using namespace std;
 int main()
