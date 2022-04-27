@@ -1,0 +1,6 @@
+
+
+min(a,b); --- min function to find min in a and b 
+max(a,b); --- max in a and b
+sort(arr,size); --- sort the array 
+swap(a,b); ---swap a and b
