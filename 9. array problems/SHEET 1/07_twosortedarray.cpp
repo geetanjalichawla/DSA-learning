@@ -59,6 +59,13 @@ vector<int> findArrayunion(int arr1[], int arr2[], int n, int m)
 
     return ans;
 }
+ while(i < n)
+        ans.push_back(a[i++]);
+    
+    while(j < m)
+        ans.push_back(b[j++]);
+        
+    return ans;
 void printarr(vector<int> arr)
 {
     for (int i = 0; i < arr.size(); i++)
